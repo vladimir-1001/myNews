@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8"/>
+    <title>news</title>
+    <link rel="icon" href="images/logos/logo_2019.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+  <header>
+    <span class="logo"></span>
+    <div class="header_content">
+      <div class="links_header_block">
+        <a href="#">Новости</a>
+        <a href="#">Таблоид</a>
+        <a href="#">День добрых дел</a>
+        <a href="#">О канале</a>
+        <a href="#">Проекты</a>
+        <a href="#">Телепрограмма</a>
+      </div>
+      <div class="links_header_social">
+        <a href="#" target="_blank"><img src="images/social_nets/icn_twitter.svg" /></a>
+        <a href="#" target="_blank"><img src="images/social_nets/icn_fb.svg" /></a>
+        <a href="#" target="_blank"><img src="images/social_nets/icn_vk.svg" /></a>
+        <a href="#" target="_blank"><img src="images/social_nets/icn_youtube.svg" /></a>
+        <a href="#" target="_blank"><img src="images/social_nets/icn_moretv.svg" /></a>
+      </div>
+      <div class="search_image">
+        <img src="images/icons/icn_search.svg" />
+      </div>
+      <div class="live_block">
+        <a href="#">прямой эфир</a>
+      </div>
+      <div class="hide_menu">
+        <span></span>
+      </div>
+    </div>
+  </header>
+    <div class="header_search_block">
+      <div class="header_search_block_content">
+        <span>
+          <input type="text" class="header_search_input" />
+          <img class="header_search_button" src="images/icons/icn_search.svg" />
+        </span>
+      </div>
+    </div>
+  <div class="newsblock">
+    <div class="headnews">
+      <div class="weather_block">
+        <div class="temp_block">
+          <span class="temp">+20°</span>
+          <div class="temp_img" style="background-image:url('images/weather/sun.png');"></div>
+          <div class="pressure_humidity">
+            <span class="pressure" title="Атмосферное давление">759 мм рт. ст.</span>
+            <span class="humidity" title="Относительная влажность">40%</span>
+          </div>
+        </div>
+        <div class="courses_block">
+          <span class="sign_valute">$</span>
+          <div class="dollar_course">
+            <span class="val_course">73.43</span>
+            <span class="dunamic_course">0.46</span>
+          </div>
+          <span class="sign_valute">€</span>
+          <div class="euro_course">
+            <span class="val_course">87.34</span>
+            <span class="dunamic_course">0.87</span>
+          </div>
+        </div>
+        <div class="horoscope_block">
+          <div class="horoscope_img" style="background-image:url('images/weather/icon_weather_horoscope.png');"></div>
+          <a class="link_horoscope" href="#">🧙‍♀ Гороскоп на сегодня, 02 августа, для всех знаков зодиака</a>
+        </div>
+      </div>
+      <div class="hotnews">
+        <a class="hotmews_link" href="#" style="background-image:url('images/news_images/1_1159765.webp');">
+          <div class="hotnews_gradient"></div>
+          <span class="news_header">Какие уроки из COVID-19 вынесли главы регионов России</span>
+          <div class="stick_hotnews">смотреть</div>
+        </a>
+      </div>
+      <div class="second_news">
+        <div class="second_news_header">Главные новости на нашем канале</div>
+        <div class="all_second_news_cards" id="all_second_news_cards">
+        </div>
+      </div>
+    </div>
+    <div class="allnews">
+      <div class="now_show">
+        <div>
+          <div class="now_show_text">Сейчас в эфире</div>
+          <a href="#" class="now_show_info">«Последний мент», 1 серия</a>
+        </div>
+      </div>
+      <div class="allnews_slider_block">
+        <div class="arrow_slide arrow_left"></div>
+        <div class="allnews_slider" id="allnews_slider">
+        </div>
+        <div class="arrow_slide arrow_right"></div>
+      </div>
+      <div class="news_now_header_block">
+        <div class="news_now_header">
+          Новости сейчас
+        </div>
+        <div class="all_news_button">
+          все новости
+        </div>
+      </div>
+      <div class="news_now_cards_block" id="news_now_cards_block">
+      </div>
+      <div class="news_now_cards_block_blur"></div>
+    </div>
+  </div>
+  <div class="favor_block_back">
+    <div class="favor_block_content" id="favor_block_content">
+    </div>
+  </div>
+  <div class="poster_block">
+    poster_block
+  </div>
+  <div class="tabloid_block_back">
+    <div class="tabloid_block_content">
+      <div class="tabloid_header"><a href="">Таблоид</a></div>
+      <div class="tabloid_head_news" id="tabloid_head_news">
+
+        <div class="tabloid_head_news_card">
+          <a class="tabloid_head_news_link" href="#" style="background-image:url('images/news_images/1_1161355.webp');">
+            <div class="hotnews_gradient"></div>
+            <span class="tabloid_head_news_header">«Спартак» — «Локомотив»: Первое дерби сезона</span>
+            <div class="stick_tabloid_head_news">читать</div>
+          </a>
+        </div>
+        <div class="tabloid_head_news_card">
+          <a class="tabloid_head_news_link" href="#" style="background-image:url('images/news_images/1_1089304.webp');">
+            <div class="hotnews_gradient"></div>
+            <span class="tabloid_head_news_header">Пять фактов о Ким Ё Чжон — сестре Ким Чен Ына</span>
+            <div class="stick_tabloid_head_news">читать</div>
+          </a>
+        </div>
+        
+      </div>
+      <div id="favor_block_content_tabloid">
+      </div>
+    </div>
+  </div>
+  <div class="slider_popular_back">
+    <div class="slider_popular">
+      <div class="slider_popular_header">
+        Самое популярное
+      </div>
+      <div>
+        <div class="slide_popular_arrow slide_popular_left"></div>
+        <div class="slider_popular_slider_all" id="slider_popular_slider_all">
+        </div>
+        <div class="slide_popular_arrow slide_popular_right"></div>
+      </div>
+    </div>
+  </div>
+  <div class="block_now">
+
+
+    <div class="now_card">
+      <div class="now_header">Сейчас в эфире</div>
+      <div class="now_card_content">
+        <div class="now_card_image">
+          <img src="images/films_images/3004_1094422.webp" />
+          <span class="now_card_content_text">
+            <a href="#" class="now_card_content_text_name">Месть</a>
+            <p class="now_card_content_text_p">
+              <span class="now_card_content_mark">Художественный фильм</span><br>
+              <span>
+                Двое друзей, Родион Сидорский и Филипп Кудасов, пытались заработать, но попали в серьёзную передрягу. Им удалось не только благополучно выпутаться из неё самим, но и спасти жизнь девушке Наталье. Вскоре у друзей возникла идея начать свой бизнес. Молодые и амбициозные, они решительно взялись за дело, считая, что всегда будут доверять друг другу. Но партнеры по бизнесу оказались конкурентами в чувствах. Родион и Наталья влюбились друг в друга, а Филипп стал третьим лишним. Никто и не подозревал, что его обида и зависть развяжут настоящую войну…
+              </span>
+            </p>
+          </span>
+        </div>
+      </div>
+      <div class="now_card_content_time">09:45</div>
+    </div>
+    <div class="block_now_line_block"></div>
+    <div class="now_card">
+      <div class="now_header">Далее сегодня</div>
+      <div class="now_card_content">
+        <div class="now_card_image">
+          <img src="images/films_images/2600_899990.webp" />
+          <span class="now_card_content_text">
+            <a href="#" class="now_card_content_text_name">«Улицы разбитых фонарей. Обнесённые Ветром»</a>
+            <p class="now_card_content_text_p">
+              <span class="now_card_content_mark">Художественный фильм</span><br>
+              <span>
+                Коля Ветров, сидевший в тюрьме за драку, совершает побег, крадёт чужие документы и приезжает в Питер. В это же время в городе погибают бывший уголовник Яковлев и знакомый Ветрова по зоне Делов. Кроме того, среди бела дня ограблен директор по сбыту ликероводочного завода, сосед Яковлева по двору. А водитель директора — живущий по чужим документам Коля Ветров…
+              </span>
+            </p>
+          </span>
+        </div>
+      </div>
+      <div class="now_card_content_time">00:30</div>
+    </div>
+
+
+  </div>
+  <div class="slider_progects_back">
+    <div class="slider_progects">
+      <div class="slider_projects_header">
+        Проекты канала
+      </div>
+      <div class="slider_progects_show_block">
+        <div class="slide_progects_arrow slide_progects_left"></div>
+        <div class="slider_progects_all_block" id="slider_progects_all_block">
+        </div>
+        <div class="slide_progects_arrow slide_progects_right"></div>
+      </div>
+    </div>
+  </div>
+  <div class="number_day" id="number_day">
+  </div>
+  <footer>
+    <div class="footer_content">
+      <div class="block_footer block_from_channel">
+        <div class="logo_footer_block">
+          <img class="logo_footer" src="images/logos/logo_2019.svg" />
+          <div class="logo_footer_text">
+            <p class="logo_footer_text_p">© АО Телерадиокомпания «Петербург», 1998—2020. Все права защищены.</p>
+            <p>
+              <a href="#" class="logo_footer_text_link">Правовая информация</a>
+              <a href="#" class="logo_footer_text_link">Персональные данные</a>
+              <a href="#" class="logo_footer_text_link">Контактная информация</a>
+            </p>
+          </div>
+        </div>
+        <div class="block_from_channel_text">
+          <p>Наименование издания: СМИ сетевое издание 5-tv.ru</p>
+          <p>Учредитель: АО «Телерадиокомпания «Петербург»</p>
+          <p>Главный редактор: Н. В. Ильина</p>
+          <p>Зарегистрировано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций. Свидетельство о регистрации ЭЛ № ФС77-69216 от 29 марта 2017 года. </p>
+          <p><a href="#">Адрес и телефон редакции</a></p>
+        </div>
+      </div>
+      <div class="block_footer block_from_law">
+        <div class="block_from_law_left">
+          <p class="block_from_law_left_p">
+            Используя настоящий сайт, Вы тем самым обязуетесь выполнять условия Соглашения и учитывать информацию, содержащуюся в Уведомлении.
+          </p>
+          <p class="block_from_law_left_links">
+            <a href="#">
+              <img class="logo_partner_footer" src="images/logos/nmg.png" />
+            </a>
+            <a href="#">
+              <img class="logo_partner_footer logo_partner_footer_left" src="images/logos/izru.png" />
+            </a>
+          </p>
+        </div>
+        <div class="block_from_law_right">
+          <p class="block_from_law_right_p">
+            <img src="images/icons/18.png" />
+            Внимание! Отдельные видеоматериалы, размещенные на настоящем сайте, могут содержать информацию, предназначен­ную для лиц, достигших 18 лет.
+          </p>
+          <p class="block_from_law_left_links">
+            <a href="#">
+              <img class="logo_partner_footer" src="images/logos/sogaz_footer.png" /> <span>- Партнёп нашего канала</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- Не используйте это в production -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/babel" src="scripts/script.js"></script>
+  </body>
+</html>
